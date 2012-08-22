@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !asdfasdfasdfasdf.php
+RewriteRule .  /var/www/pat.bit30.org/includes/dispatch.inc.php [NC,L]
+
